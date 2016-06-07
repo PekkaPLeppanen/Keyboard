@@ -1,6 +1,7 @@
 /* keyboard - jQuery UI Widget */
-.ui-keyboard { text-align: center; padding: .3em; position: absolute; left: 0; top: 0; z-index: 16000; }
+.ui-keyboard { text-align: center; padding: .3em; position: absolute; left: 50%; top: 50%; z-index: 16000; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 .ui-keyboard-has-focus { z-index: 16001; }
+.ui-keyboard-modal { display: block; position: fixed; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.3); }
 .ui-keyboard div { font-size: 1.1em; }
 .ui-keyboard-button { height: 2em; min-width: 2em; margin: .1em; cursor: pointer; overflow: hidden; line-height: 2em; -moz-user-focus: ignore; }
 .ui-keyboard-button span { padding: 0; margin: 0; white-space:nowrap; display: inline-block; }

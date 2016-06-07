@@ -14,10 +14,9 @@
 	keyboard at the bottom of the browser window */
 	width: 100%;
 	height: auto;
-	left: 0px;
-	top: auto;
-	bottom: 0px;
-	position: fixed;
+	left: 50%;
+	top: 50%;
+	position: absolute;
 	white-space: nowrap;
 	overflow-x: auto;
 }
